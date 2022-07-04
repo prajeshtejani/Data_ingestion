@@ -1,0 +1,19 @@
+file_type: csv
+dataset_name: testfile
+file_name: yellow_tripdata_2015-01
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - VendorID
+    - passenger_count
+    - trip_distance
+    - payment_type
+    - fare_amount
+    - extra
+    - mta_tax
+    - tip_amount
+    - tolls_amount
+    - improvement_surcharge
+    - total_amount
